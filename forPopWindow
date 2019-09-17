@@ -1,0 +1,4 @@
+PopupWindow mPopupWindow = new PopupWindow(windowView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT,true);
+//when you fill in the WRAP_CONTENT in the height parma space, the window will get the wrong place which you want;
+
+mPopupWindow.showAsDropDown(tabLayout_main_tabLayout);//to show at the left-bottom at the anchor view by default
